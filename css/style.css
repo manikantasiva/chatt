@@ -1,0 +1,185 @@
+body {
+    background: url(../img/chat.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.b-img {}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+
+/* .txt {
+    background-color: rgb(192, 179, 185);
+    text-align: center;
+    text-size-adjust: 70%;
+    width: auto;
+    height: 356pt;
+} */
+
+.title h1 {
+    margin: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    border-radius: 10px;
+    color: crimson;
+    text-align: center;
+    text-shadow: 2px 2px 1px #000000;
+}
+
+
+/* .hdr {
+    width: 100%;
+    background-color: rgb(49, 4, 4);
+} */
+
+
+/*  nav bar css  ......*/
+
+
+/* .hdr ul {
+    text-align: center;
+}
+
+.hdr ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    color: #ffff;
+    margin: auto;
+} */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    text-decoration: none;
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(49, 4, 4);
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+ul li a:hover {
+    background-color: rgba(73, 211, 9, 0.979);
+    border-radius: 15px;
+}
+
+.open-button {
+    background-color: rgb(49, 4, 4);
+}
+
+.title h1 {
+    font-size: 56px;
+}
+
+
+/* .itms a :hover {
+    background-position: left -14px;
+} */
+
+
+/* The popup chat - hidden by default */
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+/* Add styles to the form container */
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+/* Full-width textarea */
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: greenyellow;
+    resize: none;
+    min-height: 200px;
+}
+
+
+/* When the textarea gets focus, do something */
+
+.form-container textarea:focus {
+    background-color: #b2f0b3;
+    outline: none;
+}
+
+
+/* Set a style for the submit/send button */
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 25px;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: red;
+    border-radius: 25px;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
